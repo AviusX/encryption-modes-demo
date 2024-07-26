@@ -1,0 +1,17 @@
+{
+	"name": "encryption-modes-demo",
+	"version": "1.0.0",
+	"description": "An application to demo why you should never use ECB",
+	"license": "MIT",
+	"devDependencies": {
+		"husky": ">=6",
+		"lint-staged": ">=10",
+		"prettier": "^3.3.3"
+	},
+	"lint-staged": {
+		"**/*": "prettier --write --ignore-unknown"
+	},
+	"scripts": {
+		"prepare": "husky install"
+	}
+}
